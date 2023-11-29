@@ -36,6 +36,7 @@ app.use(function(err, req, res, next) {
   // render the error page
   console.log('test feat/f')
   console.log('test feat/f 2')
+  console.log('diubah e')
   res.status(err.status || 500);
   res.render('error');
 });
