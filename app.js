@@ -35,7 +35,7 @@ app.use(function(err, req, res, next) {
   res.locals.error = req.app.get('env') === 'development' ? err : {};
 
   // render the error page
-  console.log('disini ada perubahan')
+  console.log('disini ada perubahan 2')
   res.status(err.status || 500);
   res.render('error');
 });
